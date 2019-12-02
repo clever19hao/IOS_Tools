@@ -1,0 +1,8 @@
+解决方案是修改hosts，按照以下三步来操作
+1、打开hosts文件
+终端执行sudo vim /etc/hosts
+2、浏览器访问https://www.ipaddress.com/，分别输入github.com和github.global.ssl.fastly.net以获取对应的ip
+更改hosts文件：在后面追加
+192.30.253.112 github.com
+151.101.185.194 github.global.ssl.fastly.net
+3、刷新DNS缓存(Mac 系统)，Windows系统命令可以自行查找一下sudo killall -HUP mDNSResponder
