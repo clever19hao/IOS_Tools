@@ -6,3 +6,4 @@
 192.30.253.112 github.com
 151.101.185.194 github.global.ssl.fastly.net
 3、刷新DNS缓存(Mac 系统)，Windows系统命令可以自行查找一下sudo killall -HUP mDNSResponder
+刷新DNS（Mac系统）：sudo dscacheutil -flushcache
